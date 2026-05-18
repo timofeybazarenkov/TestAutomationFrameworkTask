@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "cypress run --headless --browser chrome & cypress run --headless --browser firefox & cypress run --headless --browser edge"
+  },
+  "dependencies": {
+    "cypress": "^15.15.0"
+  }
+}
